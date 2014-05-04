@@ -11,12 +11,10 @@
 
 @implementation AppDelegate
 
-Chromecli *app;
+Chromecli *chromecli;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
-    NSLog (@"hello objective c world.");
 
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self
                                                      selector:@selector(receiveNotification:)
@@ -24,7 +22,7 @@ Chromecli *app;
                                                      object:nil];
     
     
-    app = [[Chromecli alloc] init];
+    chromecli = [[Chromecli alloc] init];
 }
 
 - (void) receiveNotification:(NSNotification *) notification {
@@ -32,8 +30,13 @@ Chromecli *app;
     NSLog(@"track information: %@", information);
 
     NSString *trackname = [information objectForKey:@"Name"];
-    NSString *javascript = [NSString stringWithFormat:@"document.getElementById(\"name\").innerHTML=\"%@\"", trackname];
-    [app executeNSJavascriptInActiveTab: javascript];
+    NSString *artistname = [information objectForKey:@"Artist"];
+    NSString *filename = [information objectForKey:@"Location"];
+    NSString *jsTrackname = [NSString stringWithFormat:@"document.getElementById(\"trackName\").innerHTML=\"%@\";", trackname];
+    NSString *jsArtistName = [NSString stringWithFormat:@"document.getElementById(\"artistName\").innerHTML=\"%@\";", artistname];
+    NSString *jsFilename = [NSString stringWithFormat:@"document.getElementById(\"player\").innerHTML='<audio controls autoplay name=\"media\"><source src=\"%@\" type=\"audio/mp3\"></audio>';", filename];
+    NSString *javascript = [NSString stringWithFormat:@"%@ %@ %@", jsTrackname, jsArtistName, jsFilename];
+    [chromecli executeNSJavascriptInActiveTab: javascript];
 
 }
 
