@@ -32,9 +32,17 @@ Chromecli *chromecli;
     NSString *trackname = [information objectForKey:@"Name"];
     NSString *artistname = [information objectForKey:@"Artist"];
     NSString *filename = [information objectForKey:@"Location"];
+    NSString *playerstate = [information objectForKey:@"Player State"];
+    
+    NSString *jsFilename = [NSString stringWithFormat:@"document.getElementById(\"player\").innerHTML='<audio id=\"media-player\" controls autoplay name=\"media\"><source src=\"%@\" type=\"audio/mp3\"></audio>';", filename];
+    if ([playerstate rangeOfString:@"Paused"].location != NSNotFound) {
+        jsFilename = @"var audio=document.getElementById(\"media-player\"); audio.pause();";
+    }
+
     NSString *jsTrackname = [NSString stringWithFormat:@"document.getElementById(\"trackName\").innerHTML=\"%@\";", trackname];
     NSString *jsArtistName = [NSString stringWithFormat:@"document.getElementById(\"artistName\").innerHTML=\"%@\";", artistname];
-    NSString *jsFilename = [NSString stringWithFormat:@"document.getElementById(\"player\").innerHTML='<audio controls autoplay name=\"media\"><source src=\"%@\" type=\"audio/mp3\"></audio>';", filename];
+
+    
     NSString *javascript = [NSString stringWithFormat:@"%@ %@ %@", jsTrackname, jsArtistName, jsFilename];
     [chromecli executeNSJavascriptInActiveTab: javascript];
 
