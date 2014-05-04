@@ -18,6 +18,11 @@
 		6F7F8F9719159F8A00B85958 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F7619159F8A00B85958 /* Cocoa.framework */; };
 		6F7F8F9F19159F8A00B85958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */; };
 		6F7F8FA119159F8A00B85958 /* iTunesPosterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */; };
+		6F7F8FB91916315400B85958 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FAF1916315400B85958 /* App.m */; };
+		6F7F8FBA1916315400B85958 /* Argonaut.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB11916315400B85958 /* Argonaut.m */; };
+		6F7F8FBB1916315400B85958 /* Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB31916315400B85958 /* Arguments.m */; };
+		6F7F8FBC1916315400B85958 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB71916315400B85958 /* Handler.m */; };
+		6F7F8FBD1916315400B85958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB81916315400B85958 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,17 @@
 		6F7F8F9C19159F8A00B85958 /* iTunesPosterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesPosterTests-Info.plist"; sourceTree = "<group>"; };
 		6F7F8F9E19159F8A00B85958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesPosterTests.m; sourceTree = "<group>"; };
+		6F7F8FAE1916315400B85958 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		6F7F8FAF1916315400B85958 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		6F7F8FB01916315400B85958 /* Argonaut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Argonaut.h; sourceTree = "<group>"; };
+		6F7F8FB11916315400B85958 /* Argonaut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Argonaut.m; sourceTree = "<group>"; };
+		6F7F8FB21916315400B85958 /* Arguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arguments.h; sourceTree = "<group>"; };
+		6F7F8FB31916315400B85958 /* Arguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arguments.m; sourceTree = "<group>"; };
+		6F7F8FB41916315400B85958 /* chrome-cli-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "chrome-cli-Prefix.pch"; sourceTree = "<group>"; };
+		6F7F8FB51916315400B85958 /* chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chrome.h; sourceTree = "<group>"; };
+		6F7F8FB61916315400B85958 /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		6F7F8FB71916315400B85958 /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		6F7F8FB81916315400B85958 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +131,7 @@
 		6F7F8F7C19159F8A00B85958 /* iTunesPoster */ = {
 			isa = PBXGroup;
 			children = (
+				6F7F8FAD1916315400B85958 /* chrome-cli */,
 				6F7F8F8819159F8A00B85958 /* AppDelegate.h */,
 				6F7F8F8919159F8A00B85958 /* AppDelegate.m */,
 				6F7F8F8B19159F8A00B85958 /* MainMenu.xib */,
@@ -152,6 +169,25 @@
 				6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7F8FAD1916315400B85958 /* chrome-cli */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8FAE1916315400B85958 /* App.h */,
+				6F7F8FAF1916315400B85958 /* App.m */,
+				6F7F8FB01916315400B85958 /* Argonaut.h */,
+				6F7F8FB11916315400B85958 /* Argonaut.m */,
+				6F7F8FB21916315400B85958 /* Arguments.h */,
+				6F7F8FB31916315400B85958 /* Arguments.m */,
+				6F7F8FB41916315400B85958 /* chrome-cli-Prefix.pch */,
+				6F7F8FB51916315400B85958 /* chrome.h */,
+				6F7F8FB61916315400B85958 /* Handler.h */,
+				6F7F8FB71916315400B85958 /* Handler.m */,
+				6F7F8FB81916315400B85958 /* main.m */,
+			);
+			name = "chrome-cli";
+			path = "chrome-cli/master/chrome-cli";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7F8FBC1916315400B85958 /* Handler.m in Sources */,
+				6F7F8FBB1916315400B85958 /* Arguments.m in Sources */,
+				6F7F8FB91916315400B85958 /* App.m in Sources */,
 				6F7F8F8A19159F8A00B85958 /* AppDelegate.m in Sources */,
+				6F7F8FBA1916315400B85958 /* Argonaut.m in Sources */,
+				6F7F8FBD1916315400B85958 /* main.m in Sources */,
 				6F7F8F8319159F8A00B85958 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
