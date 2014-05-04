@@ -26,6 +26,8 @@
 - (void) receiveNotification:(NSNotification *) notification {
     NSDictionary *information = [notification userInfo];
     NSLog(@"track information: %@", information);
+    
+    
 }
 
 
