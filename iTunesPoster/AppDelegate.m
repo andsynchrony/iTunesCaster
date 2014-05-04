@@ -31,8 +31,8 @@ Chromecli *app;
     NSDictionary *information = [notification userInfo];
     NSLog(@"track information: %@", information);
 
-    NSString *trackname = [information objectForKey:@"name"];
-    NSString *javascript = @"document.getElementById(\"name\").innerHTML=\"skfjshfdskj\"";
+    NSString *trackname = [information objectForKey:@"Name"];
+    NSString *javascript = [NSString stringWithFormat:@"document.getElementById(\"name\").innerHTML=\"%@\"", trackname];
     [app executeNSJavascriptInActiveTab: javascript];
 
 }
