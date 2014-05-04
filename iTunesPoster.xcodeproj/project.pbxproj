@@ -22,7 +22,6 @@
 		6F7F8FBA1916315400B85958 /* Argonaut.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB11916315400B85958 /* Argonaut.m */; };
 		6F7F8FBB1916315400B85958 /* Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB31916315400B85958 /* Arguments.m */; };
 		6F7F8FBC1916315400B85958 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB71916315400B85958 /* Handler.m */; };
-		6F7F8FBD1916315400B85958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB81916315400B85958 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		6F7F8FB51916315400B85958 /* chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chrome.h; sourceTree = "<group>"; };
 		6F7F8FB61916315400B85958 /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
 		6F7F8FB71916315400B85958 /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
-		6F7F8FB81916315400B85958 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +182,6 @@
 				6F7F8FB51916315400B85958 /* chrome.h */,
 				6F7F8FB61916315400B85958 /* Handler.h */,
 				6F7F8FB71916315400B85958 /* Handler.m */,
-				6F7F8FB81916315400B85958 /* main.m */,
 			);
 			name = "chrome-cli";
 			path = "chrome-cli/master/chrome-cli";
@@ -293,7 +290,6 @@
 				6F7F8FB91916315400B85958 /* Chromecli.m in Sources */,
 				6F7F8F8A19159F8A00B85958 /* AppDelegate.m in Sources */,
 				6F7F8FBA1916315400B85958 /* Argonaut.m in Sources */,
-				6F7F8FBD1916315400B85958 /* main.m in Sources */,
 				6F7F8F8319159F8A00B85958 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "Chromecli.h"
 
 @implementation AppDelegate
+
+Chromecli *app;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -21,13 +24,14 @@
                                                      object:nil];
     
     
+    app = [[Chromecli alloc] init];
 }
 
 - (void) receiveNotification:(NSNotification *) notification {
     NSDictionary *information = [notification userInfo];
     NSLog(@"track information: %@", information);
     
-    
+    [app listTabs:0];
 }
 
 
