@@ -30,8 +30,11 @@ Chromecli *app;
 - (void) receiveNotification:(NSNotification *) notification {
     NSDictionary *information = [notification userInfo];
     NSLog(@"track information: %@", information);
-    
-    [app listTabs:0];
+
+    NSString *trackname = [information objectForKey:@"name"];
+    NSString *javascript = @"document.getElementById(\"name\").innerHTML=\"skfjshfdskj\"";
+    [app executeNSJavascriptInActiveTab: javascript];
+
 }
 
 
