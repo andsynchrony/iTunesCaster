@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F7F8F7719159F8A00B85958 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F7619159F8A00B85958 /* Cocoa.framework */; };
+		6F7F8F8119159F8A00B85958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F7F19159F8A00B85958 /* InfoPlist.strings */; };
+		6F7F8F8319159F8A00B85958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8219159F8A00B85958 /* main.m */; };
+		6F7F8F8719159F8A00B85958 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8519159F8A00B85958 /* Credits.rtf */; };
+		6F7F8F8A19159F8A00B85958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8919159F8A00B85958 /* AppDelegate.m */; };
+		6F7F8F8D19159F8A00B85958 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8B19159F8A00B85958 /* MainMenu.xib */; };
+		6F7F8F8F19159F8A00B85958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8E19159F8A00B85958 /* Images.xcassets */; };
+		6F7F8F9619159F8A00B85958 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F9519159F8A00B85958 /* XCTest.framework */; };
+		6F7F8F9719159F8A00B85958 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F7619159F8A00B85958 /* Cocoa.framework */; };
+		6F7F8F9F19159F8A00B85958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */; };
+		6F7F8FA119159F8A00B85958 /* iTunesPosterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F7F8F9819159F8A00B85958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F7F8F6B19159F8A00B85958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7F8F7219159F8A00B85958;
+			remoteInfo = iTunesPoster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F7F8F7319159F8A00B85958 /* iTunesPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7F8F7619159F8A00B85958 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F7F8F7919159F8A00B85958 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6F7F8F7A19159F8A00B85958 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F7F8F7B19159F8A00B85958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F7F8F7E19159F8A00B85958 /* iTunesPoster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesPoster-Info.plist"; sourceTree = "<group>"; };
+		6F7F8F8019159F8A00B85958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F7F8F8219159F8A00B85958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F7F8F8419159F8A00B85958 /* iTunesPoster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesPoster-Prefix.pch"; sourceTree = "<group>"; };
+		6F7F8F8619159F8A00B85958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6F7F8F8819159F8A00B85958 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F7F8F8919159F8A00B85958 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F7F8F8C19159F8A00B85958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6F7F8F8E19159F8A00B85958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F7F8F9419159F8A00B85958 /* iTunesPosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesPosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7F8F9519159F8A00B85958 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F7F8F9C19159F8A00B85958 /* iTunesPosterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesPosterTests-Info.plist"; sourceTree = "<group>"; };
+		6F7F8F9E19159F8A00B85958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesPosterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F7F8F7019159F8A00B85958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7F8F7719159F8A00B85958 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7F8F9119159F8A00B85958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7F8F9719159F8A00B85958 /* Cocoa.framework in Frameworks */,
+				6F7F8F9619159F8A00B85958 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F7F8F6A19159F8A00B85958 = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F7C19159F8A00B85958 /* iTunesPoster */,
+				6F7F8F9A19159F8A00B85958 /* iTunesPosterTests */,
+				6F7F8F7519159F8A00B85958 /* Frameworks */,
+				6F7F8F7419159F8A00B85958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F7F8F7419159F8A00B85958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F7319159F8A00B85958 /* iTunesPoster.app */,
+				6F7F8F9419159F8A00B85958 /* iTunesPosterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F7F8F7519159F8A00B85958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F7619159F8A00B85958 /* Cocoa.framework */,
+				6F7F8F9519159F8A00B85958 /* XCTest.framework */,
+				6F7F8F7819159F8A00B85958 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F7F8F7819159F8A00B85958 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F7919159F8A00B85958 /* AppKit.framework */,
+				6F7F8F7A19159F8A00B85958 /* CoreData.framework */,
+				6F7F8F7B19159F8A00B85958 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6F7F8F7C19159F8A00B85958 /* iTunesPoster */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F8819159F8A00B85958 /* AppDelegate.h */,
+				6F7F8F8919159F8A00B85958 /* AppDelegate.m */,
+				6F7F8F8B19159F8A00B85958 /* MainMenu.xib */,
+				6F7F8F8E19159F8A00B85958 /* Images.xcassets */,
+				6F7F8F7D19159F8A00B85958 /* Supporting Files */,
+			);
+			path = iTunesPoster;
+			sourceTree = "<group>";
+		};
+		6F7F8F7D19159F8A00B85958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F7E19159F8A00B85958 /* iTunesPoster-Info.plist */,
+				6F7F8F7F19159F8A00B85958 /* InfoPlist.strings */,
+				6F7F8F8219159F8A00B85958 /* main.m */,
+				6F7F8F8419159F8A00B85958 /* iTunesPoster-Prefix.pch */,
+				6F7F8F8519159F8A00B85958 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7F8F9A19159F8A00B85958 /* iTunesPosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */,
+				6F7F8F9B19159F8A00B85958 /* Supporting Files */,
+			);
+			path = iTunesPosterTests;
+			sourceTree = "<group>";
+		};
+		6F7F8F9B19159F8A00B85958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F8F9C19159F8A00B85958 /* iTunesPosterTests-Info.plist */,
+				6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F7F8F7219159F8A00B85958 /* iTunesPoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7F8FA419159F8A00B85958 /* Build configuration list for PBXNativeTarget "iTunesPoster" */;
+			buildPhases = (
+				6F7F8F6F19159F8A00B85958 /* Sources */,
+				6F7F8F7019159F8A00B85958 /* Frameworks */,
+				6F7F8F7119159F8A00B85958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesPoster;
+			productName = iTunesPoster;
+			productReference = 6F7F8F7319159F8A00B85958 /* iTunesPoster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F7F8F9319159F8A00B85958 /* iTunesPosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F7F8FA719159F8A00B85958 /* Build configuration list for PBXNativeTarget "iTunesPosterTests" */;
+			buildPhases = (
+				6F7F8F9019159F8A00B85958 /* Sources */,
+				6F7F8F9119159F8A00B85958 /* Frameworks */,
+				6F7F8F9219159F8A00B85958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7F8F9919159F8A00B85958 /* PBXTargetDependency */,
+			);
+			name = iTunesPosterTests;
+			productName = iTunesPosterTests;
+			productReference = 6F7F8F9419159F8A00B85958 /* iTunesPosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F7F8F6B19159F8A00B85958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stefan Wagner";
+				TargetAttributes = {
+					6F7F8F9319159F8A00B85958 = {
+						TestTargetID = 6F7F8F7219159F8A00B85958;
+					};
+				};
+			};
+			buildConfigurationList = 6F7F8F6E19159F8A00B85958 /* Build configuration list for PBXProject "iTunesPoster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F7F8F6A19159F8A00B85958;
+			productRefGroup = 6F7F8F7419159F8A00B85958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7F8F7219159F8A00B85958 /* iTunesPoster */,
+				6F7F8F9319159F8A00B85958 /* iTunesPosterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F7F8F7119159F8A00B85958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7F8F8119159F8A00B85958 /* InfoPlist.strings in Resources */,
+				6F7F8F8F19159F8A00B85958 /* Images.xcassets in Resources */,
+				6F7F8F8719159F8A00B85958 /* Credits.rtf in Resources */,
+				6F7F8F8D19159F8A00B85958 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7F8F9219159F8A00B85958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7F8F9F19159F8A00B85958 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F7F8F6F19159F8A00B85958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7F8F8A19159F8A00B85958 /* AppDelegate.m in Sources */,
+				6F7F8F8319159F8A00B85958 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7F8F9019159F8A00B85958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7F8FA119159F8A00B85958 /* iTunesPosterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F7F8F9919159F8A00B85958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F7F8F7219159F8A00B85958 /* iTunesPoster */;
+			targetProxy = 6F7F8F9819159F8A00B85958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F7F8F7F19159F8A00B85958 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7F8F8019159F8A00B85958 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F7F8F8519159F8A00B85958 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7F8F8619159F8A00B85958 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6F7F8F8B19159F8A00B85958 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7F8F8C19159F8A00B85958 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7F8F9E19159F8A00B85958 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F7F8FA219159F8A00B85958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F7F8FA319159F8A00B85958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F7F8FA519159F8A00B85958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesPoster/iTunesPoster-Prefix.pch";
+				INFOPLIST_FILE = "iTunesPoster/iTunesPoster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F7F8FA619159F8A00B85958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesPoster/iTunesPoster-Prefix.pch";
+				INFOPLIST_FILE = "iTunesPoster/iTunesPoster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F7F8FA819159F8A00B85958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTunesPoster.app/Contents/MacOS/iTunesPoster";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesPoster/iTunesPoster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iTunesPosterTests/iTunesPosterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F7F8FA919159F8A00B85958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTunesPoster.app/Contents/MacOS/iTunesPoster";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesPoster/iTunesPoster-Prefix.pch";
+				INFOPLIST_FILE = "iTunesPosterTests/iTunesPosterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F7F8F6E19159F8A00B85958 /* Build configuration list for PBXProject "iTunesPoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7F8FA219159F8A00B85958 /* Debug */,
+				6F7F8FA319159F8A00B85958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F7F8FA419159F8A00B85958 /* Build configuration list for PBXNativeTarget "iTunesPoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7F8FA519159F8A00B85958 /* Debug */,
+				6F7F8FA619159F8A00B85958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F7F8FA719159F8A00B85958 /* Build configuration list for PBXNativeTarget "iTunesPosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7F8FA819159F8A00B85958 /* Debug */,
+				6F7F8FA919159F8A00B85958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F7F8F6B19159F8A00B85958 /* Project object */;
+}
