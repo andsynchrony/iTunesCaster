@@ -1,11 +1,39 @@
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
 	<p id="trackName"></p>
 	<p id="artistName"></p>
-	<div id="player"></div>
+	<div id="player">
+		<audio id="media-player" controls autoplay name="media"></audio>
+	</div>
 </body>
+<script>
+	var audio = document.getElementById("media-player");
+	var volume = 0.02;
+	var initialLaunch = true;
+	function setFile(url, artist, track)
+	{
+		if(!initialLaunch)
+			volume = audio.volume;
+		document.getElementById("trackName").innerHTML=track;
+		document.getElementById("artistName").innerHTML=artist;
+		audio.innerHTML='<source src=' + url + ' type="audio/mp3">';
+		audio.volume=volume;
+		audio.play();
 
+		initialLaunch = false;
+	}
+
+	function pause()
+	{
+		audio.pause();
+	}
+
+	function play()
+	{
+		audio.play();
+	}
+</script>
 </html>

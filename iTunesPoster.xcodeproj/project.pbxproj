@@ -16,8 +16,6 @@
 		6F7F8F8F19159F8A00B85958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8E19159F8A00B85958 /* Images.xcassets */; };
 		6F7F8F9619159F8A00B85958 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F9519159F8A00B85958 /* XCTest.framework */; };
 		6F7F8F9719159F8A00B85958 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F7619159F8A00B85958 /* Cocoa.framework */; };
-		6F7F8F9F19159F8A00B85958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */; };
-		6F7F8FA119159F8A00B85958 /* iTunesPosterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */; };
 		6F7F8FB91916315400B85958 /* Chromecli.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FAF1916315400B85958 /* Chromecli.m */; };
 		6F7F8FBA1916315400B85958 /* Argonaut.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB11916315400B85958 /* Argonaut.m */; };
 		6F7F8FBB1916315400B85958 /* Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8FB31916315400B85958 /* Arguments.m */; };
@@ -51,9 +49,6 @@
 		6F7F8F8E19159F8A00B85958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F7F8F9419159F8A00B85958 /* iTunesPosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesPosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7F8F9519159F8A00B85958 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6F7F8F9C19159F8A00B85958 /* iTunesPosterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesPosterTests-Info.plist"; sourceTree = "<group>"; };
-		6F7F8F9E19159F8A00B85958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesPosterTests.m; sourceTree = "<group>"; };
 		6F7F8FAE1916315400B85958 /* Chromecli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chromecli.h; sourceTree = "<group>"; };
 		6F7F8FAF1916315400B85958 /* Chromecli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chromecli.m; sourceTree = "<group>"; };
 		6F7F8FB01916315400B85958 /* Argonaut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Argonaut.h; sourceTree = "<group>"; };
@@ -91,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				6F7F8F7C19159F8A00B85958 /* iTunesPoster */,
-				6F7F8F9A19159F8A00B85958 /* iTunesPosterTests */,
 				6F7F8F7519159F8A00B85958 /* Frameworks */,
 				6F7F8F7419159F8A00B85958 /* Products */,
 			);
@@ -147,24 +141,6 @@
 				6F7F8F8219159F8A00B85958 /* main.m */,
 				6F7F8F8419159F8A00B85958 /* iTunesPoster-Prefix.pch */,
 				6F7F8F8519159F8A00B85958 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6F7F8F9A19159F8A00B85958 /* iTunesPosterTests */ = {
-			isa = PBXGroup;
-			children = (
-				6F7F8FA019159F8A00B85958 /* iTunesPosterTests.m */,
-				6F7F8F9B19159F8A00B85958 /* Supporting Files */,
-			);
-			path = iTunesPosterTests;
-			sourceTree = "<group>";
-		};
-		6F7F8F9B19159F8A00B85958 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F7F8F9C19159F8A00B85958 /* iTunesPosterTests-Info.plist */,
-				6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -274,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7F8F9F19159F8A00B85958 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7F8FA119159F8A00B85958 /* iTunesPosterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,14 +309,6 @@
 				6F7F8F8C19159F8A00B85958 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		6F7F8F9D19159F8A00B85958 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F7F8F9E19159F8A00B85958 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -503,6 +469,7 @@
 				6F7F8FA619159F8A00B85958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F7F8FA719159F8A00B85958 /* Build configuration list for PBXNativeTarget "iTunesPosterTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +478,7 @@
 				6F7F8FA919159F8A00B85958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
