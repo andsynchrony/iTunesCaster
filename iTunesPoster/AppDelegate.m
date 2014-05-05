@@ -12,7 +12,7 @@
 @implementation AppDelegate
 
 Chromecli *chromecli;
-NSInteger *tabid;
+NSInteger tabid;
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -24,7 +24,7 @@ NSInteger *tabid;
     
     chromecli = [[Chromecli alloc] init];
     
-    //tabid = [chromecli openNSUrlInNewTab: @"file:///Users/andsynchrony/Documents/Code/xcode/iTunesPoster/iTunesViewer/iTunesViewer.html"];
+    tabid = [chromecli openNSUrlInNewTab: @"file:///Users/andsynchrony/Documents/Code/xcode/iTunesPoster/iTunesViewer/iTunesViewer.html"];
 }
 
 - (void) receiveNotification:(NSNotification *) notification {
@@ -42,7 +42,7 @@ NSInteger *tabid;
         javascript = @"pause()";
     }
 
-    [chromecli executeNSJavascriptInActiveTab: javascript];
+    [chromecli executeNSJavascriptInTab: tabid: javascript];
 
 }
 
