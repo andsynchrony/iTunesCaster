@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Chromecli.h"
+#import "Arguments.h"
 
 @implementation AppDelegate
 
@@ -24,7 +25,7 @@ NSInteger tabid;
     
     chromecli = [[Chromecli alloc] init];
     
-    tabid = [chromecli openNSUrlInNewTab: @"file:///Users/andsynchrony/Documents/Code/xcode/iTunesPoster/iTunesViewer/iTunesViewer.html"];
+    tabid = [chromecli getTab: @"file:///Users/andsynchrony/Documents/Code/xcode/iTunesPoster/iTunesViewer/iTunesViewer.html"];
 }
 
 - (void) receiveNotification:(NSNotification *) notification {
