@@ -33,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F2CE33D191D501E00EA0873 /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		6F2CE33E191D55DF00EA0873 /* NSStrinAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
 		6F7F8F7319159F8A00B85958 /* iTunesPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7F8F7619159F8A00B85958 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6F7F8F7919159F8A00B85958 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,8 @@
 		6F7F8F7C19159F8A00B85958 /* iTunesPoster */ = {
 			isa = PBXGroup;
 			children = (
+				6F2CE33E191D55DF00EA0873 /* NSStrinAdditions.h */,
+				6F2CE33D191D501E00EA0873 /* iTunes.h */,
 				6F7F8FAD1916315400B85958 /* chrome-cli */,
 				6F7F8F8819159F8A00B85958 /* AppDelegate.h */,
 				6F7F8F8919159F8A00B85958 /* AppDelegate.m */,

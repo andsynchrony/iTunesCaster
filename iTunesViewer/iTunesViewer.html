@@ -5,6 +5,7 @@
 <body>
 	<p id="trackName"></p>
 	<p id="artistName"></p>
+	<img id ="artwork" src="" alt="Artwork" width="300" height="300" />
 	<div id="player">
 		<audio id="media-player" controls autoplay name="media"></audio>
 	</div>
@@ -24,6 +25,14 @@
 		audio.play();
 
 		initialLaunch = false;
+	}
+
+	function setArtwork(str)
+	{
+		console.log(str);
+		document.getElementById("artwork").src="data:image/png;base64,"+str;
+
+
 	}
 
 	function pause()
