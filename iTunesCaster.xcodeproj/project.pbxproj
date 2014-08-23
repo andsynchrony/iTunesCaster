@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2CEA7919A89A7300103D4B /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6F2CEA7719A89A7300103D4B /* style.css */; };
+		6F2CEA7A19A89A8000103D4B /* iTunesViewer.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F2CEA7619A89A7300103D4B /* iTunesViewer.html */; };
+		6F2CEA7B19A89A8300103D4B /* style.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F2CEA7719A89A7300103D4B /* style.css */; };
 		6F7F8F7719159F8A00B85958 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F8F7619159F8A00B85958 /* Cocoa.framework */; };
 		6F7F8F8119159F8A00B85958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F8F7F19159F8A00B85958 /* InfoPlist.strings */; };
 		6F7F8F8319159F8A00B85958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F8F8219159F8A00B85958 /* main.m */; };
@@ -39,6 +42,8 @@
 			dstPath = html;
 			dstSubfolderSpec = 7;
 			files = (
+				6F2CEA7A19A89A8000103D4B /* iTunesViewer.html in CopyFiles */,
+				6F2CEA7B19A89A8300103D4B /* style.css in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +52,8 @@
 /* Begin PBXFileReference section */
 		6F2CE33D191D501E00EA0873 /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		6F2CE33E191D55DF00EA0873 /* NSStrinAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
+		6F2CEA7619A89A7300103D4B /* iTunesViewer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iTunesViewer.html; sourceTree = "<group>"; };
+		6F2CEA7719A89A7300103D4B /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		6F7F8F7319159F8A00B85958 /* iTunesCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7F8F7619159F8A00B85958 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6F7F8F7919159F8A00B85958 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -96,9 +103,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2CEA7519A89A7300103D4B /* iTunesViewer */ = {
+			isa = PBXGroup;
+			children = (
+				6F2CEA7619A89A7300103D4B /* iTunesViewer.html */,
+				6F2CEA7719A89A7300103D4B /* style.css */,
+			);
+			path = iTunesViewer;
+			sourceTree = "<group>";
+		};
 		6F7F8F6A19159F8A00B85958 = {
 			isa = PBXGroup;
 			children = (
+				6F2CEA7519A89A7300103D4B /* iTunesViewer */,
 				6F7F8F7C19159F8A00B85958 /* iTunesPoster */,
 				6F7F8F7519159F8A00B85958 /* Frameworks */,
 				6F7F8F7419159F8A00B85958 /* Products */,
@@ -256,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2CEA7919A89A7300103D4B /* style.css in Resources */,
 				6F7F8F8119159F8A00B85958 /* InfoPlist.strings in Resources */,
 				6F7F8F8F19159F8A00B85958 /* Images.xcassets in Resources */,
 				6F7F8F8719159F8A00B85958 /* Credits.rtf in Resources */,
