@@ -50,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F0D575419A8F34B00C874B8 /* iTunesCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesCasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2CE33D191D501E00EA0873 /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		6F2CE33E191D55DF00EA0873 /* NSStrinAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
 		6F2CEA7619A89A7300103D4B /* iTunesViewer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iTunesViewer.html; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		6F7F8F8919159F8A00B85958 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F7F8F8C19159F8A00B85958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6F7F8F8E19159F8A00B85958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6F7F8F9419159F8A00B85958 /* iTunesCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iTunesCasterTests.xctest; path = /Users/andsynchrony/Documents/Code/xcode/iTunesCaster/build/Debug/iTunesCasterTests.xctest; sourceTree = "<absolute>"; };
 		6F7F8F9519159F8A00B85958 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6F7F8FAE1916315400B85958 /* Chromecli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chromecli.h; sourceTree = "<group>"; };
 		6F7F8FAF1916315400B85958 /* Chromecli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chromecli.m; sourceTree = "<group>"; };
@@ -119,6 +119,7 @@
 				6F7F8F7C19159F8A00B85958 /* iTunesPoster */,
 				6F7F8F7519159F8A00B85958 /* Frameworks */,
 				6F2CEA7C19A8A0C400103D4B /* iTunesCaster.app */,
+				6F0D575419A8F34B00C874B8 /* iTunesCasterTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +199,7 @@
 				6F7F8F7019159F8A00B85958 /* Frameworks */,
 				6F7F8F7119159F8A00B85958 /* Resources */,
 				6F2CEA6219A898E900103D4B /* CopyFiles */,
+				6F0D575519A906EA00C874B8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -223,7 +225,7 @@
 			);
 			name = iTunesCasterTests;
 			productName = iTunesPosterTests;
-			productReference = 6F7F8F9419159F8A00B85958 /* iTunesCasterTests.xctest */;
+			productReference = 6F0D575419A8F34B00C874B8 /* iTunesCasterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -280,6 +282,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F0D575519A906EA00C874B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd Build/Debug\nzip -r iTunesCaster.zip iTunesCaster.app";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F7F8F6F19159F8A00B85958 /* Sources */ = {
