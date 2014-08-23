@@ -54,7 +54,7 @@
 		6F2CE33E191D55DF00EA0873 /* NSStrinAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
 		6F2CEA7619A89A7300103D4B /* iTunesViewer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iTunesViewer.html; sourceTree = "<group>"; };
 		6F2CEA7719A89A7300103D4B /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
-		6F7F8F7319159F8A00B85958 /* iTunesCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2CEA7C19A8A0C400103D4B /* iTunesCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7F8F7619159F8A00B85958 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6F7F8F7919159F8A00B85958 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6F7F8F7A19159F8A00B85958 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -68,7 +68,7 @@
 		6F7F8F8919159F8A00B85958 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F7F8F8C19159F8A00B85958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6F7F8F8E19159F8A00B85958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6F7F8F9419159F8A00B85958 /* iTunesCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesCasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7F8F9419159F8A00B85958 /* iTunesCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iTunesCasterTests.xctest; path = /Users/andsynchrony/Documents/Code/xcode/iTunesCaster/build/Debug/iTunesCasterTests.xctest; sourceTree = "<absolute>"; };
 		6F7F8F9519159F8A00B85958 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6F7F8FAE1916315400B85958 /* Chromecli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chromecli.h; sourceTree = "<group>"; };
 		6F7F8FAF1916315400B85958 /* Chromecli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chromecli.m; sourceTree = "<group>"; };
@@ -118,17 +118,8 @@
 				6F2CEA7519A89A7300103D4B /* iTunesViewer */,
 				6F7F8F7C19159F8A00B85958 /* iTunesPoster */,
 				6F7F8F7519159F8A00B85958 /* Frameworks */,
-				6F7F8F7419159F8A00B85958 /* Products */,
+				6F2CEA7C19A8A0C400103D4B /* iTunesCaster.app */,
 			);
-			sourceTree = "<group>";
-		};
-		6F7F8F7419159F8A00B85958 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6F7F8F7319159F8A00B85958 /* iTunesCaster.app */,
-				6F7F8F9419159F8A00B85958 /* iTunesCasterTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		6F7F8F7519159F8A00B85958 /* Frameworks */ = {
@@ -214,7 +205,7 @@
 			);
 			name = iTunesCaster;
 			productName = iTunesPoster;
-			productReference = 6F7F8F7319159F8A00B85958 /* iTunesCaster.app */;
+			productReference = 6F2CEA7C19A8A0C400103D4B /* iTunesCaster.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6F7F8F9319159F8A00B85958 /* iTunesCasterTests */ = {
@@ -258,7 +249,7 @@
 				Base,
 			);
 			mainGroup = 6F7F8F6A19159F8A00B85958;
-			productRefGroup = 6F7F8F7419159F8A00B85958 /* Products */;
+			productRefGroup = 6F7F8F6A19159F8A00B85958;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

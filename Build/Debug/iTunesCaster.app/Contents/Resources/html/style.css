@@ -1,0 +1,41 @@
+body {
+	background-color: #000;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	color: #f0eef3;
+	font-size: 60px;
+}
+
+p {
+	margin: 10px;
+}
+
+#container {
+	width: 750px;
+	margin: 10% auto;
+}
+
+.column {
+	position: relative;
+	float: left;
+	margin-left: 25px;
+	height: 350px;
+	width: 350px;
+}
+
+#textinfo {
+	position: absolute;
+	bottom: 0;
+	min-width: 800px;
+	overflow: hidden;
+}
+
+#player {
+	clear: both;
+	width: 100%;
+}
+
+audio {
+	margin-top: 40px;
+	width: 100%;
+}
