@@ -22,3 +22,6 @@ iTunesCaster is split into two parts:
 * No video playback
 * Streaming to Chromecast may be choppy depending on your wifi connection
 * Volume controls from iTunes not added yet
+
+
+iTunesPoster code uses [chrome-cli](https://github.com/prasmussen/chrome-cli) by Petter Rasmussen
