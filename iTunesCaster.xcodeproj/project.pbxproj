@@ -32,6 +32,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6F2CEA6219A898E900103D4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = html;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6F2CE33D191D501E00EA0873 /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		6F2CE33E191D55DF00EA0873 /* NSStrinAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStrinAdditions.h; sourceTree = "<group>"; };
@@ -177,6 +189,7 @@
 				6F7F8F6F19159F8A00B85958 /* Sources */,
 				6F7F8F7019159F8A00B85958 /* Frameworks */,
 				6F7F8F7119159F8A00B85958 /* Resources */,
+				6F2CEA6219A898E900103D4B /* CopyFiles */,
 			);
 			buildRules = (
 			);

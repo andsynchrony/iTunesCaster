@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
-               BuildableName = "iTunesPoster.app"
+               BuildableName = "iTunesCaster.app"
                BlueprintName = "iTunesCaster"
                ReferencedContainer = "container:iTunesCaster.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F7F8F9319159F8A00B85958"
-               BuildableName = "iTunesPosterTests.xctest"
+               BuildableName = "iTunesCasterTests.xctest"
                BlueprintName = "iTunesCasterTests"
                ReferencedContainer = "container:iTunesCaster.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
-            BuildableName = "iTunesPoster.app"
+            BuildableName = "iTunesCaster.app"
             BlueprintName = "iTunesCaster"
             ReferencedContainer = "container:iTunesCaster.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
-            BuildableName = "iTunesPoster.app"
+            BuildableName = "iTunesCaster.app"
             BlueprintName = "iTunesCaster"
             ReferencedContainer = "container:iTunesCaster.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
-            BuildableName = "iTunesPoster.app"
+            BuildableName = "iTunesCaster.app"
             BlueprintName = "iTunesCaster"
             ReferencedContainer = "container:iTunesCaster.xcodeproj">
          </BuildableReference>
