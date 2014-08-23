@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
                BuildableName = "iTunesPoster.app"
-               BlueprintName = "iTunesPoster"
-               ReferencedContainer = "container:iTunesPoster.xcodeproj">
+               BlueprintName = "iTunesCaster"
+               ReferencedContainer = "container:iTunesCaster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F7F8F9319159F8A00B85958"
                BuildableName = "iTunesPosterTests.xctest"
-               BlueprintName = "iTunesPosterTests"
-               ReferencedContainer = "container:iTunesPoster.xcodeproj">
+               BlueprintName = "iTunesCasterTests"
+               ReferencedContainer = "container:iTunesCaster.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
             BuildableName = "iTunesPoster.app"
-            BlueprintName = "iTunesPoster"
-            ReferencedContainer = "container:iTunesPoster.xcodeproj">
+            BlueprintName = "iTunesCaster"
+            ReferencedContainer = "container:iTunesCaster.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
             BuildableName = "iTunesPoster.app"
-            BlueprintName = "iTunesPoster"
-            ReferencedContainer = "container:iTunesPoster.xcodeproj">
+            BlueprintName = "iTunesCaster"
+            ReferencedContainer = "container:iTunesCaster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F7F8F7219159F8A00B85958"
             BuildableName = "iTunesPoster.app"
-            BlueprintName = "iTunesPoster"
-            ReferencedContainer = "container:iTunesPoster.xcodeproj">
+            BlueprintName = "iTunesCaster"
+            ReferencedContainer = "container:iTunesCaster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
