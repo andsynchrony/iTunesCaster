@@ -28,7 +28,11 @@ iTunesApplication *iTunes;
     iTunes = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];
 
     chromecli = [[Chromecli alloc] init];
-    tabid = [chromecli getTab: @"file:///Users/andsynchrony/Documents/Code/xcode/iTunesPoster/iTunesViewer/iTunesViewer.html"];
+    NSString *appPath = [[NSBundle mainBundle] bundlePath];
+    NSString *url = [NSString stringWithFormat:@"%@%@/%@", @"file://", appPath, @"Contents/Resources/html/iTunesViewer.html"];
+    tabid = [chromecli getTab: url];
+
+
 }
 
 - (void) receiveNotification:(NSNotification *) notification {
