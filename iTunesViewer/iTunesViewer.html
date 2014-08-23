@@ -3,9 +3,18 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<p id="trackName"></p>
-	<p id="artistName"></p>
-	<img id ="artwork" src="" alt="Artwork" width="300" height="300" />
+	<div id="container">
+		<div class="column">
+			<img id ="artwork" src="" alt="Artwork" width="350" height="350" />
+		</div>
+
+		<div class="column">
+			<div id="textinfo">
+				<p id="trackName"><i>Artist Name</i></p>
+				<p id="artistName">Track Title</p>
+			</div>
+		</div>
+	</div>
 	<div id="player">
 		<audio id="media-player" controls autoplay name="media"></audio>
 	</div>
@@ -18,7 +27,7 @@
 	{
 		if(!initialLaunch)
 			volume = audio.volume;
-		document.getElementById("trackName").innerHTML=track;
+		document.getElementById("trackName").innerHTML="<i>"+track+"</i>";
 		document.getElementById("artistName").innerHTML=artist;
 		audio.innerHTML='<source src=' + url + ' type="audio/mp3">';
 		audio.volume=volume;
