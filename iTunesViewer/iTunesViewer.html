@@ -1,57 +1,91 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>iTunesCaster</title>
+
+     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-	<div id="container">
-		<div class="column">
-			<img id ="artwork" src="" alt="Artwork" width="350" height="350" />
-		</div>
 
-		<div class="column">
-			<div id="textinfo">
-				<p id="trackName"><i>Artist Name</i></p>
-				<p id="artistName">Track Title</p>
-			</div>
-		</div>
-	</div>
-	<div id="player">
-		<audio id="media-player" controls autoplay name="media"></audio>
-	</div>
+    <div class="container">
+
+        <img id ="artwork" src="" alt="Artwork" width="350" height="350">
+
+
+        <div class="info">
+
+            <p id="trackName"><i>Artist Name</i></p>
+            <p id="artistName">Track Title</p>
+
+        </div>
+
+        <div id="player">
+
+            <audio id="media-player" controls autoplay name="media"></audio>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        /*
+         * Default Variables
+         */
+
+        var player = document.querySelector('#media-player'),
+            volume = 0.50,
+            track_name = document.querySelector('#trackName'),
+            artist_name = document.querySelector('#artistName'),
+            first_time = true;
+
+
+        /*
+         * Change Info and URL of current Track
+         */
+
+        function setFile( url, artist, track ) {
+
+            if( !first_time ) volume = player.volume;
+
+            track_name.innerHTML = '<i>' + track + '</i>';
+            artist_name.innerHTML = '<i>' + artist + '</i>';
+
+            player.innerHTML = '<source src=' + url + ' type="audio/mp3">';
+            player.volume = volume;
+            player.load();
+            player.play();
+
+            first_time = false;
+
+        }
+
+
+
+        /*
+         * Change Cover of current Track
+         */
+
+        function setArtwork( data ) {
+
+            var artwork = document.querySelector('#artwork');
+            artwork.src = 'data:image/png;base64,' + data;
+
+        }
+
+
+
+        /*
+         * Play and Pause ;)
+         */
+
+        function play() { player.play(); }
+        function pause() { player.pause(); }
+
+
+    </script>
 </body>
-<script>
-	var audio = document.getElementById("media-player");
-	var volume = 0.02;
-	var initialLaunch = true;
-	function setFile(url, artist, track)
-	{
-		if(!initialLaunch)
-			volume = audio.volume;
-		document.getElementById("trackName").innerHTML="<i>"+track+"</i>";
-		document.getElementById("artistName").innerHTML=artist;
-		audio.innerHTML='<source src=' + url + ' type="audio/mp3">';
-		audio.volume=volume;
-		audio.play();
-
-		initialLaunch = false;
-	}
-
-	function setArtwork(str)
-	{
-		console.log(str);
-		document.getElementById("artwork").src="data:image/png;base64,"+str;
-
-
-	}
-
-	function pause()
-	{
-		audio.pause();
-	}
-
-	function play()
-	{
-		audio.play();
-	}
-</script>
 </html>

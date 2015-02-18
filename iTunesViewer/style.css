@@ -1,41 +1,43 @@
-body {
-	background-color: #000;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: lighter;
-	color: #f0eef3;
-	font-size: 60px;
+html, body {
+
+    background: black;
+    color: #f0eef3;
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+
+    height: 100%;
+    width: 100%;
+
 }
 
-p {
-	margin: 10px;
+.container {
+
+    float: left;
+    height: 100%;
+    padding: 10px 20px;
+    width: 100%;
+
 }
 
-#container {
-	width: 750px;
-	margin: 10% auto;
-}
+    img {
+        float: left;
+        margin-left: 80px;
+        margin-top: 100px;
+    }
 
-.column {
-	position: relative;
-	float: left;
-	margin-left: 25px;
-	height: 350px;
-	width: 350px;
-}
+    .info {
+        float: left;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
 
-#textinfo {
-	position: absolute;
-	bottom: 0;
-	min-width: 800px;
-	overflow: hidden;
-}
+    audio {
+        clear: both;
+        float: left;
+        margin-top: 100px;
+        width: 100%;
+    }
 
-#player {
-	clear: both;
-	width: 100%;
-}
 
-audio {
-	margin-top: 40px;
-	width: 100%;
-}
