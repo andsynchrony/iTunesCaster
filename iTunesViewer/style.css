@@ -30,13 +30,14 @@ html, body {
     .info {
         float: left;
         margin-left: 50px;
-        margin-top: 100px;
+        margin-top: 70px;
+        width: 650px;
     }
 
     audio {
         clear: both;
         float: left;
-        margin-top: 100px;
+        margin-top: 70px;
         width: 100%;
     }
 
